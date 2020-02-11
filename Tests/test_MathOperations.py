@@ -28,7 +28,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(24, Multiplication.product(numlist))
 
     def test_MathOperations_Quotient(self):
-        self.assertEqual(1, Division.quotient(6,3))
+        self.assertEqual(2, Division.quotient(6,3))
 
     def test_MathOperations_root(self):
         self.assertEqual(13, Root.root(169, 2))

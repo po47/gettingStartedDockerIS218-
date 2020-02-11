@@ -10,5 +10,5 @@ class Addition:
     def sumList (valueList):
         result = 0
         for value in valueList:
-            result = Addition.sum(result, element)
+            result = Addition.sum(result, value)
         return result
